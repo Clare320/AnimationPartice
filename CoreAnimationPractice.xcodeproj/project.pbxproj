@@ -12,6 +12,7 @@
 		84F9FE4D215C7775007B160A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F9FE4B215C7775007B160A /* Main.storyboard */; };
 		84F9FE4F215C7778007B160A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F9FE4E215C7778007B160A /* Assets.xcassets */; };
 		84F9FE52215C7778007B160A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F9FE50215C7778007B160A /* LaunchScreen.storyboard */; };
+		BC6BD9E3215D0829008FA022 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BD9E2215D0829008FA022 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84F9FE4E215C7778007B160A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84F9FE51215C7778007B160A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84F9FE53215C7778007B160A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6BD9E2215D0829008FA022 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				84F9FE47215C7775007B160A /* AppDelegate.swift */,
 				84F9FE49215C7775007B160A /* ViewController.swift */,
+				BC6BD9E2215D0829008FA022 /* ThirdViewController.swift */,
 				84F9FE4B215C7775007B160A /* Main.storyboard */,
 				84F9FE4E215C7778007B160A /* Assets.xcassets */,
 				84F9FE50215C7778007B160A /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F9FE4A215C7775007B160A /* ViewController.swift in Sources */,
+				BC6BD9E3215D0829008FA022 /* ThirdViewController.swift in Sources */,
 				84F9FE48215C7775007B160A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
