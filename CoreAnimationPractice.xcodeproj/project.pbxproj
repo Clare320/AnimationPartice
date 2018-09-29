@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		84DE12D4215DBB2C00F7E301 /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE12D3215DBB2C00F7E301 /* FourViewController.swift */; };
 		84DE12D6215DED0400F7E301 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE12D5215DED0400F7E301 /* FiveViewController.swift */; };
+		84DE12D8215F1A2F00F7E301 /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE12D7215F1A2F00F7E301 /* SixViewController.swift */; };
 		84F9FE48215C7775007B160A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9FE47215C7775007B160A /* AppDelegate.swift */; };
 		84F9FE4A215C7775007B160A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F9FE49215C7775007B160A /* ViewController.swift */; };
 		84F9FE4D215C7775007B160A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F9FE4B215C7775007B160A /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		84DE12D3215DBB2C00F7E301 /* FourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
 		84DE12D5215DED0400F7E301 /* FiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		84DE12D7215F1A2F00F7E301 /* SixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
 		84F9FE44215C7775007B160A /* CoreAnimationPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F9FE47215C7775007B160A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F9FE49215C7775007B160A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				BC6BD9E2215D0829008FA022 /* ThirdViewController.swift */,
 				84DE12D3215DBB2C00F7E301 /* FourViewController.swift */,
 				84DE12D5215DED0400F7E301 /* FiveViewController.swift */,
+				84DE12D7215F1A2F00F7E301 /* SixViewController.swift */,
 				84F9FE4B215C7775007B160A /* Main.storyboard */,
 				84F9FE4E215C7778007B160A /* Assets.xcassets */,
 				84F9FE50215C7778007B160A /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 				84DE12D6215DED0400F7E301 /* FiveViewController.swift in Sources */,
 				84F9FE4A215C7775007B160A /* ViewController.swift in Sources */,
 				BC6BD9E3215D0829008FA022 /* ThirdViewController.swift in Sources */,
+				84DE12D8215F1A2F00F7E301 /* SixViewController.swift in Sources */,
 				84DE12D4215DBB2C00F7E301 /* FourViewController.swift in Sources */,
 				84F9FE48215C7775007B160A /* AppDelegate.swift in Sources */,
 			);
