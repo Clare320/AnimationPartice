@@ -23,7 +23,11 @@ class SixViewController: UIViewController {
         
         setupTextLayer()
     
-        setup()
+        setupTransformLayer()
+        
+        setupGradientLayer()
+        
+        setupReplicatorLayer()
     }
     
     override func viewDidLayoutSubviews() {
@@ -72,7 +76,7 @@ class SixViewController: UIViewController {
         textLayer.string = "This is TextLayer"
     }
     
-    func setup() -> Void {
+    func setupTransformLayer() -> Void {
         
         let tmpView1 = UIView(frame: CGRect(x: 12, y: 250, width: 100, height: 100))
         tmpView1.backgroundColor = .black
@@ -104,4 +108,45 @@ class SixViewController: UIViewController {
         
     }
 
+    func setupGradientLayer() {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = CGRect(x: 12, y: 370, width: 200, height: 50)
+        view.layer.addSublayer(gradientLayer)
+        
+        gradientLayer.colors = [UIColor.red.cgColor, UIColor.cyan.cgColor]
+        
+        // 对应colors中每一个颜色作用区域范围
+//        gradientLayer.locations = [0.0, 1]
+        
+        // 控制渐变方向
+        gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+        gradientLayer.endPoint = CGPoint(x: 1, y: 0)
+
+    }
+    
+    func setupReplicatorLayer() -> Void {
+        let replicatorLayer = CAReplicatorLayer()
+        replicatorLayer.backgroundColor = UIColor.gray.cgColor
+        replicatorLayer.frame = CGRect(x: 12, y: 430, width: 300, height: 200)
+        view.layer.addSublayer(replicatorLayer)
+        
+        replicatorLayer.instanceCount = 6
+        
+        var transform = CATransform3DIdentity
+        transform = CATransform3DMakeTranslation(0, -30, 0)
+        transform = CATransform3DRotate(transform, .pi / 6, 0, 0, 1)
+        transform = CATransform3DTranslate(transform, 0, 30, 0)
+        replicatorLayer.instanceTransform = transform
+        
+        replicatorLayer.instanceBlueOffset = -0.1
+        replicatorLayer.instanceGreenOffset = -0.1
+        
+        let layer = CATextLayer()
+        layer.foregroundColor = UIColor.white.cgColor
+        layer.string = "1"
+        layer.alignmentMode = CATextLayerAlignmentMode(rawValue: "center")
+        layer.frame = CGRect(x: 125, y: 140, width: 50, height: 50)
+        layer.backgroundColor = UIColor.cyan.cgColor
+        replicatorLayer.addSublayer(layer)
+    }
 }
